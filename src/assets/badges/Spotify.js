@@ -1,9 +1,9 @@
 import React from "react";
-export default function Spotify() {
+export default function Spotify({ height }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      height="32"
+      height={height}
       viewBox="0 0 43.905 43.723"
     >
       <path

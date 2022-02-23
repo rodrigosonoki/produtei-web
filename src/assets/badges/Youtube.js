@@ -1,9 +1,9 @@
 import React from "react";
-export default function Youtube() {
+export default function Youtube({ height }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      height="24"
+      height={height}
       viewBox="0 0 50.297 35.248"
     >
       <path

@@ -1,9 +1,9 @@
 import React from "react";
-export default function Deezer() {
+export default function Deezer(props) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      height="32"
+      height={props.height}
       viewBox="0 0 59.05 58.805"
     >
       <path

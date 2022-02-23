@@ -16,18 +16,18 @@ function Footer() {
         <Row>
           OUÇA-NOS AQUI:
           <Badges>
-            <Spotify />
-            <Deezer />
-            <Apple />
+            <Spotify height="32px" />
+            <Deezer height="32px" />
+            <Apple height="32px" />
           </Badges>
         </Row>
         <Row>
           ENCONTRE-NOS AQUI:
           <Badges>
-            <Linkedin />
-            <Instagram />
-            <Facebook />
-            <Youtube />
+            <Linkedin height="24px" />
+            <Instagram height="24px" />
+            <Facebook height="24px" />
+            <Youtube height="24px" />
           </Badges>
         </Row>
       </Content>

@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function Apple() {
+export default function Apple(props) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      height="32"
+      height={props.height}
       viewBox="0 0 57.791 57.536"
     >
       <path

@@ -1,9 +1,9 @@
 import React from "react";
-export default function Instagram() {
+export default function Instagram({ height }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      height="24"
+      height={height}
       viewBox="0 0 50.665 50.64"
     >
       <path

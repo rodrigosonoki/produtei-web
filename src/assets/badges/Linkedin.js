@@ -1,11 +1,11 @@
 import React from "react";
-export default function Linkedin() {
+export default function Linkedin({ height }) {
   return (
     <svg
       id="Group_31"
       data-name="Group 31"
       xmlns="http://www.w3.org/2000/svg"
-      height="24"
+      height={height}
       viewBox="0 0 46.784 46.676"
     >
       <path

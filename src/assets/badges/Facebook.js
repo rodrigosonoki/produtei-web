@@ -1,9 +1,9 @@
 import React from "react";
-export default function Facebook() {
+export default function Facebook({ height }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      height="24"
+      height={height}
       viewBox="0 0 29.316 56.146"
     >
       <path

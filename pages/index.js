@@ -4,6 +4,8 @@ import Team from "../src/components/Team";
 import Header from "../src/components/Header";
 import RotatingBanner from "../src/components/RotatingBanner";
 import Footer from "../src/components/Footer";
+import Posts from "../src/components/Posts";
+import Podcasts from "../src/components/Podcasts";
 
 export default function Home() {
   return (
@@ -22,6 +24,8 @@ export default function Home() {
         <Header />
         <Banner />
         <RotatingBanner />
+
+        <Podcasts />
         <Team />
         <Footer />
       </main>
