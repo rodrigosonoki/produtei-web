@@ -6,6 +6,7 @@ import RotatingBanner from "../src/components/RotatingBanner";
 import Footer from "../src/components/Footer";
 import Posts from "../src/components/Posts";
 import Podcasts from "../src/components/Podcasts";
+import Guest from "../src/components/Guest";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
 
         <Podcasts />
         <Team />
+        <Guest />
         <Footer />
       </main>
     </div>

@@ -16,7 +16,7 @@ function Team(props) {
     <Container>
       <Information>
         <ImageWrapper>
-          <Image src={image} height={32} width={32} />
+          <Image src={image} height={40} width={40} />
         </ImageWrapper>
         <TextWrapper>
           <span>{props.name}</span>

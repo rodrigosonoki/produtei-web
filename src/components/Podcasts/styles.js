@@ -9,10 +9,17 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   width: 1000px;
-  height: 160px;
+
   align-items: center;
   display: flex;
   padding: 0 80px;
+  flex-direction: column;
+`;
+
+export const Row = styled.div`
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
 `;
 
 export const Player = styled.div``;

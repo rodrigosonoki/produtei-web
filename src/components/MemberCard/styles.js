@@ -12,10 +12,10 @@ export const Information = styled.div`
 `;
 
 export const ImageWrapper = styled.div`
-  border-radius: 32px;
+  border-radius: 40px;
   overflow: hidden;
   background: tomato;
-  height: 32px;
+  height: 40px;
   margin-right: 12px;
 `;
 

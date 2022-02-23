@@ -22,3 +22,13 @@ export const Row = styled.div`
   justify-content: space-between;
   padding: 0 80px;
 `;
+
+export const Heading = styled.span`
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-family: MontSerrat;
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: 32px;
+`;
