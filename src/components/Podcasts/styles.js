@@ -8,8 +8,8 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  width: 1000px;
-
+  max-width: 960px;
+  width: 100%;
   align-items: center;
   display: flex;
   padding: 0 80px;

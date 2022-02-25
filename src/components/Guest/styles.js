@@ -11,7 +11,8 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   display: flex;
-  width: 840px;
+  max-width: 840px;
+  width: 100%;
   height: 100%;
   background: #1f0f5a;
   border-radius: 20px;

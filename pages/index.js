@@ -15,7 +15,11 @@ export default function Home() {
         <title>Produtei</title>
         <meta name="description" content="Produtei" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" cross0rigin />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          cross0rigin="true"
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;900&family=Patua+One&display=swap"
           rel="stylesheet"

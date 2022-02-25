@@ -10,7 +10,7 @@ export default function Separator() {
         transform="translate(1)"
         fill="none"
         stroke="#ee9abe"
-        stroke-width="2"
+        strokeWidth="2"
       />
     </svg>
   );

@@ -7,10 +7,15 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media only screen and (max-width: 680px) {
+    height: 200px;
+  }
 `;
 
 export const Content = styled.div`
-  width: 1000px;
+  max-width: 960px;
+  width: 100%;
   padding: 0 80px;
   display: flex;
   flex-direction: column;
@@ -23,6 +28,13 @@ export const Content = styled.div`
     line-height: 92px;
     color: #f26666;
   }
+
+  @media only screen and (max-width: 784px) {
+    span {
+      font-size: 48px;
+      line-height: 48px;
+    }
+  }
 `;
 
 export const FirstRow = styled.div`
@@ -34,6 +46,10 @@ export const SecondRow = styled.div`
   width: 100%;
   display: flex;
   justify-content: flex-end;
+
+  @media only screen and (max-width: 784px) {
+    justify-content: flex-start;
+  }
 `;
 
 export const ThirdRow = styled.div`
